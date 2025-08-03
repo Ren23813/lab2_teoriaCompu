@@ -1,0 +1,7 @@
+{
+    "estados":["A","B","C","D","E"],
+    "alfabeto":["0","1"],
+    "inicial":"A",
+    "aceptacion":["E"],
+    "transiciones":["(A,0,A)",""]
+}

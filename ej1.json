@@ -1,7 +1,28 @@
 {
-    "estados":["A","B","C","D","E"],
-    "alfabeto":["0","1"],
-    "inicial":"A",
-    "aceptacion":["E"],
-    "transiciones":["(A,0,A)",""]
+   "primerEjercicio":{
+      "estados":["A","B","C","D","E"],
+      "alfabeto":["0","1"],
+      "inicial":"A",
+      "aceptacion":["E"],
+      "transiciones": {
+         "A": { "0": "A", "1": "B" },
+         "B": { "0": "A", "1": "C" },
+         "C": { "0": "B", "1": "D" },
+         "D": { "0": "C", "1": "E" },
+         "E": { "0": "D", "1": "E" }
+      }
+   },
+
+   "segundoEjercicio":
+   {
+      "estados":["X","Y","Z"],
+      "alfabeto":["waa","wii"], 
+      "inicial":"Y",
+      "aceptacion":["X","Z"],
+      "transiciones": {
+         "X": { "waa": "X", "wii": "Z" },
+         "Y": { "waa": "X", "wii": "Y" },
+         "Z": { "waa": "Y", "wii": "X" }
+      }
+   }
 }

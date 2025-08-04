@@ -7,7 +7,7 @@ Este es un programa en python que simula el comportamiento de autómatas finitos
 
 El programa interpreta los automatas desde un json.
 
-##Instrucciones para correr
+## Instrucciones para correr
 1) Clonar el repositorio desde terminal. HTTPS:
 ```
 git clone https://github.com/Ren23813/lab2_teoriaCompu 

@@ -17,4 +17,4 @@ git clone https://github.com/Ren23813/lab2_teoriaCompu
 ```
 python3 main.py
 ```
-o abrir visual estudio o su editor de código para ejecutarlo manualmente
+o abrir visual studio o su editor de código para ejecutarlo manualmente
